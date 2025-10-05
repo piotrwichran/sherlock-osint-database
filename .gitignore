@@ -1,1 +1,81 @@
+# ==========================
+# macOS SYSTEM FILES
+# ==========================
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================
+# PYTHON FILES & ENVIRONMENTS
+# ==========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+dist/
+build/
+develop-eggs/
+.installed.cfg
+
+# ==========================
+# OSINT / DATA / FORENSICS PROJECT FILES
+# ==========================
+*.log
+*.tmp
+*.bak
+*.sqlite
+*.db
+*.csv~
+*.json~
+*.old
+*.cache/
+*.session
+data/raw/
+data/tmp/
+temp/
+tmp/
+
+# ==========================
+# EDITORS & IDEs
+# ==========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================
+# BACKUPS / EXPORTS
+# ==========================
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.bak
+*.swp
+
+# ==========================
+# GIT & SECURITY
+# ==========================
+# Don’t ever commit credentials or tokens
+*.pem
+*.key
+*.crt
+*.p12
+*.env
+.envrc
+secrets.json
+token.txt
