@@ -1,6 +1,10 @@
+```markdown
+[![English](https://img.shields.io/badge/lang-English-blue)](README.md)
+[![Polski](https://img.shields.io/badge/język-Polski-red)](README_PL.md)
+
 # sherlock-osint-database
 Extended dataset for the Sherlock OSINT tool — includes additional websites, improved detection patterns, and localized (Polish &amp; global) sources for user reconnaissance and open-source intelligence research.
-
+```
 # 🕵️ Sherlock OSINT Database
 
 **Sherlock OSINT Database** is an extended dataset designed for use with the [Sherlock Project](https://github.com/sherlock-project/sherlock) — an open-source tool for discovering usernames across social networks and online platforms.
