@@ -2953,5 +2953,13 @@
   "urlMain": "https://www.smartpage.pl/randki",
   "username_claimed": "smartpage",
   "__comment__": "Wpis dla polskiego portalu SmartPage.pl — sekcja randkowa. Sherlock sprawdza istnienie profilu użytkownika po nazwie w URL. W razie zmiany struktury adresów (np. dodanie ID użytkownika) należy zaktualizować pole 'url' lub 'errorType'."
+},
+"OkCupid": {
+  "errorType": "status_code",
+  "regexCheck": "^[A-Za-z0-9._-]{3,32}$",
+  "url": "https://www.okcupid.com/profile/{}",
+  "urlMain": "https://www.okcupid.com/",
+  "username_claimed": "okcupid",
+  "__comment__": "OkCupid publikuje profile pod /profile/{username}. Dla nieistniejącego profilu serwis zwykle zwraca 404, więc 'status_code' jest najstabilniejszy."
 }
 }
