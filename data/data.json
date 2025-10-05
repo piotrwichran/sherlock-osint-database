@@ -2901,5 +2901,57 @@
   "urlMain": "https://www.przeznaczeni.pl/",
   "username_claimed": "przeznaczeni",
   "__comment__": "Wpis dla polskiego portalu randkowego Przeznaczeni.pl — Sherlock sprawdza istnienie profilu użytkownika na podstawie adresu URL profilu. W razie zmiany struktury portalu należy zaktualizować pole 'url' lub komunikaty w 'errorMsg'."
+},
+"Randki.Interia.pl": {
+  "errorType": "message",
+  "errorMsg": [
+    "Użytkownik nie istnieje",
+    "Strona, której szukasz, nie istnieje",
+    "404 - Nie znaleziono strony"
+  ],
+  "regexCheck": "^[A-Za-z0-9._-]{3,25}$",
+  "url": "https://randki.interia.pl/uzytkownik/{}",
+  "urlMain": "https://randki.interia.pl/",
+  "username_claimed": "interia",
+  "__comment__": "Wpis dla polskiego portalu randkowego Randki Interia — Sherlock sprawdza istnienie profilu użytkownika po nazwie w URL. W razie zmiany struktury portalu (np. linki oparte o ID użytkownika), należy zaktualizować pole 'url'."
+},
+"SinglePolska.pl": {
+  "errorType": "message",
+  "errorMsg": [
+    "Użytkownik nie istnieje",
+    "Strona, której szukasz, nie istnieje",
+    "404 - Nie znaleziono strony"
+  ],
+  "regexCheck": "^[A-Za-z0-9._-]{3,25}$",
+  "url": "https://singlepolska.pl/uzytkownik/{}",
+  "urlMain": "https://singlepolska.pl/",
+  "username_claimed": "singlepolska",
+  "__comment__": "Wpis dla polskiego portalu randkowego SinglePolska.pl — Sherlock sprawdza istnienie profilu użytkownika po nazwie w URL. W razie zmiany struktury adresów lub przejścia na system ID należy zaktualizować pole 'url' lub 'errorType'."
+},
+"ZaadoptujFaceta.pl": {
+  "errorType": "message",
+  "errorMsg": [
+    "Nie znaleziono strony",
+    "Użytkownik nie istnieje",
+    "404"
+  ],
+  "regexCheck": "^[A-Za-z0-9._-]{3,25}$",
+  "url": "https://www.zaadoptujfaceta.pl/profil/{}",
+  "urlMain": "https://www.zaadoptujfaceta.pl/",
+  "username_claimed": "zaadoptujfaceta",
+  "__comment__": "Wpis dla polskiego portalu randkowego ZaadoptujFaceta.pl — Sherlock sprawdza istnienie profilu użytkownika po nazwie w URL. Portal bazuje na francuskim AdopteUnMec, więc struktura może się zmieniać; w razie potrzeby dostosuj pole 'url' lub 'errorMsg'."
+},
+"SmartPage.pl (Randki)": {
+  "errorType": "message",
+  "errorMsg": [
+    "Strona nie została znaleziona",
+    "Użytkownik nie istnieje",
+    "404"
+  ],
+  "regexCheck": "^[A-Za-z0-9._-]{3,25}$",
+  "url": "https://www.smartpage.pl/randki/{}",
+  "urlMain": "https://www.smartpage.pl/randki",
+  "username_claimed": "smartpage",
+  "__comment__": "Wpis dla polskiego portalu SmartPage.pl — sekcja randkowa. Sherlock sprawdza istnienie profilu użytkownika po nazwie w URL. W razie zmiany struktury adresów (np. dodanie ID użytkownika) należy zaktualizować pole 'url' lub 'errorType'."
 }
 }
