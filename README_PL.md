@@ -1,7 +1,5 @@
 > 🌍 English version: [README.md](README.md)
-# sherlock-osint-database
-Extended dataset for the Sherlock OSINT tool — includes additional websites, improved detection patterns, and localized (Polish &amp; global) sources for user reconnaissance and open-source intelligence research.
-```
+
 # 🕵️ Sherlock OSINT Database — Polska wersja
 
 **Sherlock OSINT Database** to rozszerzony zbiór danych przeznaczony do współpracy z narzędziem [Sherlock](https://github.com/sherlock-project/sherlock), służącym do wyszukiwania nazw użytkowników w serwisach społecznościowych i platformach internetowych.
