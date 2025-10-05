@@ -36,3 +36,10 @@ This repository provides an updated and expanded `data.json` containing addition
 Copy this custom dataset into your local Sherlock installation:
 ```bash
 cp data/data.json sherlock_project/resources/data.json
+```
+### 🔹 Option 2 — Run Sherlock directly with this dataset
+Run Sherlock and point it to this file:
+```bash
+python3 sherlock --json data/data.json username
+```
+Where username is the handle you want to search across supported platforms.
