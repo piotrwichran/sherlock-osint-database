@@ -27,17 +27,6 @@ lub zastąp oryginalny plik w katalogu Sherlocka:
 ```bash
 cp data/data.json sherlock_project/resources/data.json
 ```
-## 🧩 Struktura pliku data.json
-Każdy wpis w pliku opisuje jeden serwis internetowy i sposób, w jaki Sherlock ma sprawdzić, czy dana nazwa użytkownika istnieje.
-Przykładowa struktura wygląda tak:
-```json
-"Sympatia": {
-    "url": "https://sympatia.onet.pl/profil/{}",
-    "errorMsg": "Nie znaleziono użytkownika",
-    "urlMain": "https://sympatia.onet.pl/",
-    "username_claimed": "anna"
-}
-```
 ***
 ## ⚠️ Uwaga
 Zanim dodasz nowy wpis, upewnij się, że:

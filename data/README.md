@@ -27,17 +27,6 @@ or replace the default file in the Sherlock directory:
 ```bash
 cp data/data.json sherlock_project/resources/data.json
 ```
-## 🧩 Structure of data.json
-Each entry in the file defines one website and specifies how Sherlock should check whether a given username exists.
-An example structure looks like this:
-```json
-"Sympatia": {
-    "url": "https://sympatia.onet.pl/profil/{}",
-    "errorMsg": "Nie znaleziono użytkownika",
-    "urlMain": "https://sympatia.onet.pl/",
-    "username_claimed": "anna"
-}
-```
 ***
 ## ⚠️ Note
 Before adding a new entry, make sure that:

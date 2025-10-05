@@ -42,15 +42,6 @@ Run Sherlock and point it to this file:
 python3 sherlock --json data/data.json nazwa_użytkownika
 ```
 Where username is the handle you want to search across supported platforms.
-### 🧩 Przykład wpisu
-```json
-"Sympatia": {
-    "url": "https://sympatia.onet.pl/profil/{}",
-    "errorMsg": "Nie znaleziono użytkownika",
-    "urlMain": "https://sympatia.onet.pl/",
-    "username_claimed": "anna"
-}
-```
 ***
 ### ⚠️ Zastrzeżenie
 Projekt nie jest powiązany z oficjalnym Sherlock Project.
